@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Home</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="container">
+
+  <!-- Sidebar -->
+  <div class="sidebar">
+    <h2>Movie</h2>
+    <p>Home</p>
+    <p>Browse</p>
+    <p>Trending</p>
+    <p>Saved</p>
+  </div>
+
+  <!-- Main Content -->
+  <div class="main">
+
+    <!-- Hero Banner -->
+    <div class="hero">
+        <h2 id="welcome"></h2>
+<button class="logout-btn"onclick="logout()">Logout</button>
+      <h1>Movie Platform 🎬</h1>
+      <p>Discover amazing movies</p>
+      <input type="text" id="search" placeholder="Search movies...">
+    </div>
+
+    <!-- Movie Container -->
+    <div id="movie-container"></div>
+
+  </div>
+
+</div>
+
+<script src="movie.js"></script>
+
+</body>
+</html>
